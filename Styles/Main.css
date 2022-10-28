@@ -115,3 +115,38 @@
 .Agencyprofile_card>.card-body{
     padding-top: 65px;
 }
+.bottom_footer{
+    background-color: #F6D236 ;
+    bottom: 0;
+    position: fixed;
+    z-index: 1000;
+    right: 0;
+    left: 0;
+    border-radius: 20px 20px 0 0;
+    padding: 10px 15px;
+    visibility: hidden;
+    margin-top: 50px;
+}
+.bottom_footer>div>a>img{
+      width: 50px;
+      height: 50px;
+}
+.bottom_footer>div>p{
+    font-size: 12px;
+}
+.bottom_footer>div:nth-child(2)>div{
+    border-radius: 50px;
+    width: 75px;
+    height: 75px;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 8px 5px -10px #000;
+}
+.bottom_footer>div:nth-child(2)>div>a>img{
+    width: 45px;
+    height: 45px;
+}
