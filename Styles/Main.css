@@ -92,3 +92,26 @@
     color: red;
     
 }
+.Agencyprofile_card{
+    border-radius: 20px !important;
+}
+.Agencyprofile_card>img{
+    border-radius: 20px 20px 0 0 ;
+}
+.Agencyprofile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Agencyprofile>img{
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+}
+.Agencyprofile_card>.card-body{
+    padding-top: 65px;
+}
