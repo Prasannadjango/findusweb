@@ -281,3 +281,20 @@ padding: 10px 0;
 {
     justify-content: end;
 }
+.Chooseuser_boxes{
+    justify-content: center;
+}
+.Chooseuser_boxes>div{
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    border-radius: 20px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.create_btn{
+    background-color: #F6D236 !important;
+    padding: 10px 40px !important;
+    
+}

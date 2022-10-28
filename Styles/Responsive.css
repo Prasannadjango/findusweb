@@ -8,5 +8,10 @@
    .Navbar_links{
     display: none;
    }
+   .Chooseuser_boxes{
+    flex-direction: column;
+  
+    padding: 0 30px;
+   }
   
 }
