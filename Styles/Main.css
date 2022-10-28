@@ -8,8 +8,7 @@
 }
 
 * {
-    padding: 0;
-    margin: 0;
+ 
     font-family:'mainfont';
 }
 
@@ -28,8 +27,7 @@
     background-color: #898989;
     z-index: 4;
     position: relative;
- 
-    background-size: 100%;
+    background-size: cover;
  
 }
 .Banner_text{
