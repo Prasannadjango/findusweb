@@ -14,9 +14,8 @@
     <nav class="navbar navbar-expand-lg navbar_container">
         <div class="container-fluid">
             <div>
-                <button class="navbar-toggler p-0" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler p-0" type="button" data-bs-toggle="offcanvas" href="#offcanvasExample"
+                    >
                     <span class="navbar-toggler-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
                             class="bi bi-list" viewBox="0 0 16 16">
@@ -25,7 +24,7 @@
                         </svg>
                     </span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse Navbar_links" id="navbarSupportedContent" >
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -45,14 +44,14 @@
             </div>
 
             <span>
-               <a href="Login.html" >
-                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
-                class="bi bi-person-circle" viewBox="0 0 16 16">
-                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                <path fill-rule="evenodd"
-                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
-            </svg>
-               </a>
+                <a href="Login.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                        class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                        <path fill-rule="evenodd"
+                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                    </svg>
+                </a>
             </span>
         </div>
 
@@ -77,9 +76,10 @@
             </div>
             <div class="d-flex">
                 <h6 class="text-white">Try out with:</h6>
-                <a href="" class="">
+                <div class="text-decoration-none d-flex" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <img src="/Images/Slider.png" style="width: 20px; height:20px;" />
                     <h6 class="Morefilter">More Filters</h6>
-                </a>
+                </div>
             </div>
         </div>
     </div>
@@ -298,11 +298,11 @@
         </div>
         <div class="d-flex align-items-center flex-column">
             <div class="bg-white ">
-                <a href="">
+                <a data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <img src="/Images/Search for Love.png" />
                 </a>
             </div>
-            
+
         </div>
         <div class="d-flex align-items-center flex-column">
             <a href="">
@@ -311,6 +311,58 @@
             <p class="m-0">Chats</p>
         </div>
     </div>
+
+    <!-- More filters popup -->
+
+   
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog border-0">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h2 class="text-center fw-bold">Search profile by Filters</h2>
+                    <form class="Advancedsearch_form">
+                        <input type="text" class="form-control" placeholder="Enter the Location...">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Select the Gender..</option>
+                            <option value="1">Male</option>
+                            <option value="2">Female</option>
+                            <option value="3">Others</option>
+                        </select>
+                        <input type="number" class="form-control" placeholder="Enter the Age...">
+                        <input type="number" class="form-control" placeholder="Enter the height...">
+                        <input type="text" class="form-control" placeholder="Enter the Body-type...">
+                        <input type="text" class="form-control" placeholder="Enter the Ethnicity...">
+                        <input type="text" class="form-control" placeholder="Enter the Eye color...">
+                        <button class="btn w-100">Search</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- navigation offcanvas popup  -->
+
+<div class="offcanvas offcanvas-start  Navigation_offcanvas" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+     
+      <button type="button" class=" bg-transparent border-0" data-bs-dismiss="offcanvas" aria-label="Close">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
+          </svg>
+      </button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="fs-2">
+        <li >Bookings</li>
+        <li>Logout</li>
+      </ul>
+    </div>
+  </div>
 
     <!-- External Scripts -->
     <script src="/scripts/bootstrap.js"></script>

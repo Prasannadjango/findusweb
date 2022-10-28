@@ -18,3 +18,14 @@ var swiper = new Swiper(".mySwiper", {
         dynamicBullets: true,
     },
   });
+
+
+//   var swiper = new Swiper(".loginSwiper", {
+ 
+//     spaceBetween: 30,
+//     effect: "fade",
+//     autoplay: {
+//         delay: 2500,
+//         disableOnInteraction: false,
+//       },
+//   });

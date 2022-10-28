@@ -198,3 +198,86 @@
     left: 5%;
     color: black;
 }
+.Advancedsearch_form>input:nth-child(1){
+    background: url(/Images/Place\ Marker.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 6px;
+    padding:15px 0 15px 45px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.Advancedsearch_form>select{
+    background: url(/Images/Gender\ Equality.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 6px;
+    padding:15px 0 15px 45px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.Advancedsearch_form>input:nth-child(3){
+    background: url(/Images/Age.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 6px;
+    padding:15px 0 15px 45px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.Advancedsearch_form>input:nth-child(4){
+    background: url(/Images/Resize\ Vertical.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 6px;
+    padding:15px 0 15px 45px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.Advancedsearch_form>input:nth-child(5){
+    background: url(/Images/Female\ Back.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 6px;
+    padding:15px 0 15px 45px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.Advancedsearch_form>input:nth-child(6){
+    background: url(/Images/Female\ User.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 6px;
+    padding:15px 0 15px 45px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.Advancedsearch_form>input:nth-child(7){
+    background: url(/Images/Sleepy\ Eyes.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 6px;
+    padding:15px 0 15px 45px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.Advancedsearch_form>button{
+    background-color: #F6D236;
+    margin-top: 20px;
+    padding: 15px 0;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.Navigation_offcanvas>.offcanvas-body>ul{
+    list-style: none;
+    padding: 0;
+}
+.Navigation_offcanvas>.offcanvas-body>ul>li{
+padding: 10px 0;
+}
+.Navigation_offcanvas>.offcanvas-header
+{
+    justify-content: end;
+}
