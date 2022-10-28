@@ -192,3 +192,9 @@
   height: 55px;
   
 }
+.Homebtn{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: black;
+}
