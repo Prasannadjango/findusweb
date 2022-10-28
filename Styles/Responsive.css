@@ -2,4 +2,8 @@
     .bottom_footer{
         visibility: visible;
     }
+    .Loginpage_container{
+        flex-direction: column;
+    }
+   
 }

@@ -19,6 +19,9 @@
     width: 100%;
     background-color: #fff;
 }
+.navbar_container>div>span>a>svg{
+  color: #000;
+}
 .Banner_container{
     background: url(../Images/bannerimage.png);
     height: 520px;
@@ -152,4 +155,40 @@
 }
 .Popularagencies_container{
     margin-bottom: 20%;
+}
+.Loginpage_container{
+    display: flex;
+}
+.Loginpage_container>div:nth-child(1)>img{
+    width: 100%;
+}
+.loginform_container>input:nth-child(1){
+  background: url(/Images/Mail.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: 6px;
+ border-radius: 10px;
+  padding:15px 0 15px 45px;
+}
+.loginform_container>input:nth-child(2){
+    background: url(/Images/Lock.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 6px;
+    padding:15px 0 15px 45px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.loginform_container>button{
+    background-color: #F6D236;
+    margin-top: 20px;
+    padding: 15px 0;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.socialmedia_container>span{
+  width: 55px;
+  height: 55px;
+  
 }
