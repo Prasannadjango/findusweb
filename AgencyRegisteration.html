@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Styles/Main.css" />
+    <link rel="stylesheet" href="/Styles/bootstrap5.css" />
+    <link rel="stylesheet" href="/Styles/Responsive.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="CustomerRegisteration_container pt-5">
+        <div class="text-center ">
+            <h1 class="fw-bold">Register as</h1>
+            <h1 class="text-warning fw-bold">Agency</h1>
+        </div>
+        <form class="CustomerRegsiter_form px-3 py-4">
+            <h4 class="fw-bold py-3">1. Personal Details</h4>
+            <div id="profile-container" class="mx-auto ">
+                <image id="logoImage" />
+            </div>
+            <p class="text-center pt-2 text-black-50">Tap to upload</p>
+            <input id="imageUpload1" type="file" name="profile_photo" placeholder="Photo" required="">
+
+            <input type="file" class="form-control Imagestext" placeholder="Enter the Username.." multiple>
+            <input type="text" class="form-control Agencytext" placeholder="Enter the Agency Name..">
+            <input type="text" class="form-control Mobiletext" placeholder="Enter the Mobile number..">
+            
+            <input type="mail" class="form-control Mailtext" placeholder="Enter the Mail-id..">
+            <input type="text" class="form-control  Locationtext" placeholder="Enter the Location.. ">
+            
+            <input type="Password" class="form-control passwordtext" placeholder="Enter the Password.. ">
+            <input type="Password" class="form-control passwordtext" placeholder="Enter the Password Again.. ">
+            <textarea class="form-control fewwordstext" placeholder="few words about you...." id="exampleFormControlTextarea1" rows="4"></textarea>
+            <h4 class="fw-bold py-3">2. Payment Details</h4>
+            <input type="number" class="form-control  Accnumtext" placeholder="Enter the Account Number.. ">
+            <input type="text" class="form-control Acctext" placeholder="Enter the Bank Name.. ">
+            <input type="text" class="form-control Acctext" placeholder="Enter the Branch Name.. ">
+
+            <button class="btn w-100">Create an Account</button>
+        </form>
+        <a href="Chooseusers.html" class="Homebtn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                <path
+                    d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
+            </svg>
+        </a>
+    </div>
+    <!-- External scripts -->
+    <script src="/scripts/bootstrap.js"></script>
+    <script src="/scripts/Main.js"></script>
+
+</body>
+
+</html>

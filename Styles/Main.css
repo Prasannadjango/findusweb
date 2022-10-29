@@ -344,6 +344,24 @@ padding: 10px 0;
     margin-top: 20px;
     border-radius: 10px !important;
 }
+.Mobiletext{
+    background: url(/Images/Phone.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 6px;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px;
+    border-radius: 10px !important;
+}
+.Agencytext{
+    background: url(/Images/Department.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 6px;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px;
+    border-radius: 10px !important;
+}
 .passwordtext{
     background: url(/Images/Lock.png);
     background-repeat: no-repeat;
@@ -360,8 +378,54 @@ padding: 10px 0;
     background-position: center;
     background-color: #E4E3E3;
 }
+#logoImage{
+    background: url(/Images/Image\ File.png);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center;
+    background-color: #E4E3E3;
+}
+.Imagestext{
+    background: url(/Images/Add\ Image.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 6px;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px;
+    border-radius: 10px !important;
+}
+.fewwordstext{
+    background: url(/Images/Align\ Text\ Left.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position-x: 7px;
+    background-position-y: 13px;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px;
+    border-radius: 10px !important;
+}
+.Accnumtext{
+    background: url(/Images/Credit\ Card.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position-x: 7px;
+    background-position-y: 13px;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px;
+    border-radius: 10px !important;
+}
+.Acctext{
+    background: url(/Images/Museum.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position-x: 7px;
+    background-position-y: 13px;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px;
+    border-radius: 10px !important;
+}
 /* Profile pic picker */
-#imageUpload
+#imageUpload,#imageUpload1
 {
     display: none;
 }
@@ -386,3 +450,6 @@ padding: 10px 0;
     width: 150px;
     height: 150px;
 }
+::-webkit-file-upload-button {
+    display: none;
+ }
