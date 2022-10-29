@@ -126,21 +126,21 @@
     right: 0;
     left: 0;
     border-radius: 20px 20px 0 0;
-    padding: 10px 15px;
+    padding: 5px 15px;
     visibility: hidden;
     margin-top: 50px;
 }
 .bottom_footer>div>a>img{
-      width: 50px;
-      height: 50px;
+      width: 40px;
+      height: 40px;
 }
 .bottom_footer>div>p{
     font-size: 12px;
 }
 .bottom_footer>div:nth-child(2)>div{
     border-radius: 50px;
-    width: 75px;
-    height: 75px;
+    width: 70px;
+    height: 70px;
     display: grid;
     place-items: center;
     position: absolute;
@@ -150,8 +150,8 @@
     box-shadow: 0 8px 5px -10px #000;
 }
 .bottom_footer>div:nth-child(2)>div>a>img{
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
 }
 .Popularagencies_container{
     margin-bottom: 20%;
