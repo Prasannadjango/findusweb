@@ -1,0 +1,159 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Styles/Main.css" />
+    <link rel="stylesheet" href="/Styles/bootstrap5.css" />
+    <link rel="stylesheet" href="/Styles/Responsive.css" />
+    <link rel="stylesheet" href="/Styles/Formstepper.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <div class="py-5 text-center">
+            <h1 class="fw-bold">Register as</h1>
+            <h1 class="text-warning fw-bold">Provider</h1>
+        </div>
+        <div id="multi-step-form-container">
+            <!-- Form Steps / Progress Bar -->
+            <ul class="form-stepper form-stepper-horizontal text-center mx-auto py-0 px-4">
+                <!-- Step 1 -->
+                <li class="form-stepper-active text-center form-stepper-list " step="1">
+                    <a class="mx-2">
+                        <span class="form-stepper-circle">
+                            <span>1</span>
+                        </span>
+
+                    </a>
+                </li>
+                <!-- Step 2 -->
+                <li class="form-stepper-unfinished text-center form-stepper-list" step="2">
+                    <a class="mx-2">
+                        <span class="form-stepper-circle text-muted">
+                            <span>2</span>
+                        </span>
+
+                    </a>
+                </li>
+                <!-- Step 3 -->
+                <li class="form-stepper-unfinished text-center form-stepper-list" step="3">
+                    <a class="mx-2">
+                        <span class="form-stepper-circle text-muted">
+                            <span>3</span>
+                        </span>
+
+                    </a>
+                </li>
+            </ul>
+            <!-- Step Wise Form Content -->
+            <form class='px-3' id="userAccountSetupForm" name="userAccountSetupForm" enctype="multipart/form-data"
+                method="POST">
+                <!-- Step 1 Content -->
+                <section id="step-1" class="form-step">
+                    <h2 class="fw-bold py-4">1. Personal Details</h2>
+                    <div id="profile-container" class="mx-auto ">
+                        <image id="profileImage" />
+                    </div>
+                    <p class="text-center pt-2 text-black-50">Tap to upload</p>
+                    <input id="imageUpload" type="file" name="profile_photo" placeholder="Photo" required="">
+                    <div class="py-4">
+                        <input type="file" class="form-control Imagestext" placeholder="Enter the Username.." multiple>
+
+                        <input type="text" class="form-control Usertext" placeholder="Enter the Username..">
+                        <input type="mail" class="form-control Mailtext" placeholder="Enter the Mail-id..">
+                        <input type="text" class="form-control  Locationtext" placeholder="Enter the Location.. ">
+                        <select class="form-select mt-4 Genderselect" aria-label="Default select example">
+                            <option selected>Select the Gender..</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="Others">Others</option>
+                        </select>
+                        <input type="text" class="form-control Agetext" placeholder="Enter the Age.. ">
+                        <input type="Password" class="form-control passwordtext" placeholder="Enter the Password.. ">
+                        <input type="Password" class="form-control passwordtext"
+                            placeholder="Enter the Password Again.. ">
+                            <textarea class="form-control fewwordstext" placeholder="few words about you...." id="exampleFormControlTextarea1" rows="4"></textarea>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <button class="btn btn-navigate-form-step Stepnext_btn fw-bold" type="button" step_number="2">Next <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                          </svg></button>
+                    </div>
+                </section>
+                <!-- Step 2 Content, default hidden on page load. -->
+                <section id="step-2" class="form-step d-none">
+                    <h2 class="fw-bold">2. Other Details</h2>
+                    <!-- Step 2 input fields -->
+                    <div class="mt-3">
+                        <input type="number" class="form-control heighttext" placeholder="Enter the height...">
+                        <input type="text" class="form-control bodytext" placeholder="Enter the Body-type...">
+                        <input type="text" class="form-control Ethnitext" placeholder="Enter the Ethnicity...">
+                        <input type="text" class="form-control Eyetext" placeholder="Enter the Eye color...">
+                    </div>
+                    <div class="Weekend_container py-5">
+                        <h2 class="fw-bold">3. Weekend Availability</h2>
+                        <p class="m-0 text-secondary">
+                           Selected Days will be Considered as Available
+                        </p>
+                        <ul class="Weekend_list pt-3">
+                            <li>
+                              <input type="checkbox" id="check_1" name="check_1" value="Sunday">
+                              <label for="check_1">Sunday</label>
+                            </li>
+                            <li>
+                              <input type="checkbox" id="check_2" name="check_2" value="Monday">
+                              <label for="check_2">Monday</label>
+                            </li>
+                            <li>
+                              <input type="checkbox" id="check_3" name="check_3" value="Tuesday">
+                              <label for="check_3">Tuesday</label>
+                            </li>
+                            <li>
+                              <input type="checkbox" id="check_4" name="check_4" value="Wednesday">
+                              <label for="check_4">Wednesday</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="check_5" name="check_5" value="Thrusday">
+                                <label for="check_5">Thrusday</label>
+                              </li>
+                              <li>
+                                <input type="checkbox" id="check_6" name="check_6" value="Friday">
+                                <label for="check_6">Friday</label>
+                              </li>
+                              <li>
+                                <input type="checkbox" id="check_7" name="check_7" value="Saturday">
+                                <label for="check_7">Saturday</label>
+                              </li>
+                          </ul>
+                        
+                    </div>
+                    <div class="mt-3 d-flex justify-content-between">
+                        <button class="button btn-navigate-form-step" type="button" step_number="1">Prev</button>
+                        <button class="btn btn-navigate-form-step Stepnext_btn fw-bold" type="button" step_number="3">Next <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                          </svg></button>
+                    </div>
+                </section>
+                <!-- Step 3 Content, default hidden on page load. -->
+                <section id="step-3" class="form-step d-none">
+                    <h2 class="font-normal">Personal Details</h2>
+                    <!-- Step 3 input fields -->
+                    <div class="mt-3">
+                        Step 3 input fields goes here..
+                    </div>
+                    <div class="mt-3">
+                        <button class="button btn-navigate-form-step" type="button" step_number="2">Prev</button>
+                        <button class="button submit-btn" type="submit">Save</button>
+                    </div>
+                </section>
+            </form>
+        </div>
+    </div>
+    <!-- External links -->
+    <script src="/scripts/Pagestepper.js"></script>
+    <script src="/scripts/Main.js"></script>
+
+</body>
+
+</html>

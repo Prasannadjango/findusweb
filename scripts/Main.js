@@ -30,3 +30,11 @@ function fasterPreview( uploader ) {
 $("#imageUpload1").change(function(){
     fasterPreview( this );
 });
+
+
+
+
+
+
+
+

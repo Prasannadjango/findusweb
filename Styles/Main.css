@@ -225,41 +225,45 @@
     margin-top: 20px;
     border-radius: 10px;
 }
-.Advancedsearch_form>input:nth-child(4){
-    background: url(/Images/Resize\ Vertical.png);
-    background-repeat: no-repeat;
-    background-size: 30px;
-    background-position: 6px;
-    padding:15px 0 15px 45px;
-    margin-top: 20px;
-    border-radius: 10px;
+.Advancedsearch_form>input:nth-child(4),
+.heighttext{
+    background: url(/Images/Resize\ Vertical.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 30px !important;
+    background-position: 6px !important;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px !important;
+    border-radius: 10px !important;
 }
-.Advancedsearch_form>input:nth-child(5){
-    background: url(/Images/Female\ Back.png);
-    background-repeat: no-repeat;
-    background-size: 30px;
-    background-position: 6px;
-    padding:15px 0 15px 45px;
-    margin-top: 20px;
-    border-radius: 10px;
+.Advancedsearch_form>input:nth-child(5),
+.bodytext{
+    background: url(/Images/Female\ Back.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 30px !important;
+    background-position: 6px !important;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px !important;
+    border-radius: 10px !important;
 }
-.Advancedsearch_form>input:nth-child(6){
-    background: url(/Images/Female\ User.png);
-    background-repeat: no-repeat;
-    background-size: 30px;
-    background-position: 6px;
-    padding:15px 0 15px 45px;
-    margin-top: 20px;
-    border-radius: 10px;
+.Advancedsearch_form>input:nth-child(6),
+.Ethnitext{
+    background: url(/Images/Female\ User.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 30px !important;
+    background-position: 6px !important;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px !important;
+    border-radius: 10px !important;
 }
-.Advancedsearch_form>input:nth-child(7){
-    background: url(/Images/Sleepy\ Eyes.png);
-    background-repeat: no-repeat;
-    background-size: 30px;
-    background-position: 6px;
-    padding:15px 0 15px 45px;
-    margin-top: 20px;
-    border-radius: 10px;
+.Advancedsearch_form>input:nth-child(7),
+.Eyetext{
+    background: url(/Images/Sleepy\ Eyes.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 30px !important;
+    background-position: 6px !important;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px !important;
+    border-radius: 10px !important;
 }
 
 .Advancedsearch_form>button,
@@ -326,7 +330,9 @@ padding: 10px 0;
     margin-top: 20px;
     border-radius: 10px !important;
 }
-.CustomerRegsiter_form>select{
+.CustomerRegsiter_form>select
+
+{
     background: url(/Images/Gender\ Equality.png);
     background-repeat: no-repeat;
     background-size: 30px;
@@ -334,6 +340,15 @@ padding: 10px 0;
     padding:15px 0 15px 45px;
     margin-top: 20px;
     border-radius: 10px;
+}
+.Genderselect{
+    background: url(/Images/Gender\ Equality.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 30px !important;
+    background-position: 6px !important;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px !important;
+    border-radius: 10px !important;
 }
 .Agetext{
     background: url(/Images/Age.png);
@@ -453,3 +468,54 @@ padding: 10px 0;
 ::-webkit-file-upload-button {
     display: none;
  }
+.Stepnext_btn{
+    background-color: #F6D236 !important;
+    padding: 12px 25px!important;
+    
+    border-radius: 10px !important
+}
+.Stepnext_btn>svg{
+    margin-left: 5px;
+}
+
+/* Selected weekend styles */
+
+
+ul {
+    padding: 0 !important;
+    margin: 0;
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  li{
+    list-style-type: none;
+    list-style-position: outside;
+    padding: 10px;
+    
+  }
+  
+  input[type="checkbox"]:not(:checked), 
+  input[type="checkbox"]:checked {
+    position: absolute;
+    left: -9999%;
+  }
+  
+  input[type="checkbox"] + label {
+    border-radius: 30px;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    margin-bottom: 10px;
+  }
+  
+  input[type="checkbox"]:checked + label {
+    border: 1px solid white;
+    color: white;
+    background-color: #F6D236;
+  }
