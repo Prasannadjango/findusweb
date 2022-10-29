@@ -59,7 +59,6 @@
                     <input id="imageUpload" type="file" name="profile_photo" placeholder="Photo" required="">
                     <div class="py-4">
                         <input type="file" class="form-control Imagestext" placeholder="Enter the Username.." multiple>
-
                         <input type="text" class="form-control Usertext" placeholder="Enter the Username..">
                         <input type="mail" class="form-control Mailtext" placeholder="Enter the Mail-id..">
                         <input type="text" class="form-control  Locationtext" placeholder="Enter the Location.. ">
@@ -73,12 +72,16 @@
                         <input type="Password" class="form-control passwordtext" placeholder="Enter the Password.. ">
                         <input type="Password" class="form-control passwordtext"
                             placeholder="Enter the Password Again.. ">
-                            <textarea class="form-control fewwordstext" placeholder="few words about you...." id="exampleFormControlTextarea1" rows="4"></textarea>
+                        <textarea class="form-control fewwordstext" placeholder="few words about you...."
+                            id="exampleFormControlTextarea1" rows="4"></textarea>
                     </div>
                     <div class="d-flex justify-content-end">
-                        <button class="btn btn-navigate-form-step Stepnext_btn fw-bold" type="button" step_number="2">Next <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                          </svg></button>
+                        <button class="btn btn-navigate-form-step Stepnext_btn fw-bold" type="button"
+                            step_number="2">Next <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg></button>
                     </div>
                 </section>
                 <!-- Step 2 Content, default hidden on page load. -->
@@ -94,47 +97,53 @@
                     <div class="Weekend_container py-5">
                         <h2 class="fw-bold">3. Weekend Availability</h2>
                         <p class="m-0 text-secondary">
-                           Selected Days will be Considered as Available
+                            Selected Days will be Considered as Available
                         </p>
                         <ul class="Weekend_list pt-3">
                             <li>
-                              <input type="checkbox" id="check_1" name="check_1" value="Sunday">
-                              <label for="check_1">Sunday</label>
+                                <input type="checkbox" id="check_1" name="check_1" value="Sunday">
+                                <label for="check_1">Sunday</label>
                             </li>
                             <li>
-                              <input type="checkbox" id="check_2" name="check_2" value="Monday">
-                              <label for="check_2">Monday</label>
+                                <input type="checkbox" id="check_2" name="check_2" value="Monday">
+                                <label for="check_2">Monday</label>
                             </li>
                             <li>
-                              <input type="checkbox" id="check_3" name="check_3" value="Tuesday">
-                              <label for="check_3">Tuesday</label>
+                                <input type="checkbox" id="check_3" name="check_3" value="Tuesday">
+                                <label for="check_3">Tuesday</label>
                             </li>
                             <li>
-                              <input type="checkbox" id="check_4" name="check_4" value="Wednesday">
-                              <label for="check_4">Wednesday</label>
+                                <input type="checkbox" id="check_4" name="check_4" value="Wednesday">
+                                <label for="check_4">Wednesday</label>
                             </li>
                             <li>
                                 <input type="checkbox" id="check_5" name="check_5" value="Thrusday">
                                 <label for="check_5">Thrusday</label>
-                              </li>
-                              <li>
+                            </li>
+                            <li>
                                 <input type="checkbox" id="check_6" name="check_6" value="Friday">
                                 <label for="check_6">Friday</label>
-                              </li>
-                              <li>
+                            </li>
+                            <li>
                                 <input type="checkbox" id="check_7" name="check_7" value="Saturday">
                                 <label for="check_7">Saturday</label>
-                              </li>
-                          </ul>
-                        
+                            </li>
+                        </ul>
+
                     </div>
                     <div class="mt-3 d-flex justify-content-between">
-                        <button class="btn btn-navigate-form-step fw-bold" type="button" step_number="1"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
-                          </svg> Prev </button>
-                        <button class="btn btn-navigate-form-step Stepnext_btn fw-bold" type="button" step_number="3">Next <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                          </svg></button>
+                        <button class="btn btn-navigate-form-step fw-bold" type="button" step_number="1"> <svg
+                                xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                            </svg> Prev </button>
+                        <button class="btn btn-navigate-form-step Stepnext_btn fw-bold" type="button"
+                            step_number="3">Next <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg></button>
                     </div>
                 </section>
                 <!-- Step 3 Content, default hidden on page load. -->
@@ -147,14 +156,24 @@
                         <input type="text" class="form-control Acctext" placeholder="Enter the Branch Name.. ">
                     </div>
                     <div class="d-flex justify-content-between mt-5">
-                        <button class="btn btn-navigate-form-step fw-bold" type="button" step_number="2"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
-                          </svg> Prev </button>
+                        <button class="btn btn-navigate-form-step fw-bold" type="button" step_number="2"> <svg
+                                xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                            </svg> Prev </button>
                         <button class="btn Stepnext_btn fw-bold" type="submit">Create an account</button>
                     </div>
                 </section>
             </form>
         </div>
+        <a href="Chooseusers.html" class="Homebtn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                <path
+                    d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
+            </svg>
+        </a>
     </div>
     <!-- External links -->
     <script src="/scripts/Pagestepper.js"></script>
