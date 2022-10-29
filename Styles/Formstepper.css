@@ -80,7 +80,7 @@ ul.form-stepper>li:not(:last-of-type) {
   flex: 1;
   height: 1px;
   content: "";
-  top: 32%;
+  top: 44%;
 }
 
 .form-stepper-horizontal li:after {
