@@ -555,7 +555,8 @@ padding: 10px 0;
     z-index: 10;
     top: 80%;
     background: #fff;
-    border-radius: 20px 20px 0 0
+    border-radius: 20px 20px 0 0;
+    padding:1rem 1rem 3.2rem 1rem;
   }
 
   .Profileimage{
