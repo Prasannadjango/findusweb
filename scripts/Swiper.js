@@ -19,13 +19,8 @@ var swiper = new Swiper(".mySwiper", {
     },
   });
 
-
-//   var swiper = new Swiper(".loginSwiper", {
- 
-//     spaceBetween: 30,
-//     effect: "fade",
-//     autoplay: {
-//         delay: 2500,
-//         disableOnInteraction: false,
-//       },
-//   });
+  var swiper = new Swiper(".Profileswiper", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
