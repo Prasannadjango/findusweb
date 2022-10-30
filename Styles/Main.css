@@ -608,7 +608,10 @@ padding: 10px 0;
     border-radius: 40px;
     margin:  10px;
 }
-  
+.incall_container>div:nth-child(2)>span>svg{
+    color: red;
+    margin-right: 5px;
+}
 .Weekavail_container>div:nth-child(2)>span:nth-child(odd){
     background-color: #F6D236;
     border: 0;
