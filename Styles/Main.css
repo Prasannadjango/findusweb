@@ -552,8 +552,8 @@ padding: 10px 0;
   }
   .Profileinfo_container{
     position: absolute;
+    top: -15px;
     z-index: 10;
-    top: 80%;
     background: #fff;
     border-radius: 20px 20px 0 0;
     padding:1rem 1rem 3.2rem 1rem;
