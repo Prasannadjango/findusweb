@@ -641,3 +641,25 @@ padding: 10px 0;
     padding-bottom: 25%;
 
 }
+.searchform{
+    background: url(/Images/SearchLove.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 6px;
+    padding:15px 0 15px 45px !important;
+    margin-top: 20px;
+    border-radius: 10px !important;
+}
+.profilesearch_btn{
+    padding:15px 0!important;
+    margin-top: 20px;
+    border-radius: 10px !important;
+    width: 100%;
+    text-align: center;
+    font-weight: bold !important;
+    background-color: #F6D236 !important;
+}
+
+.Agencyall_Profiles>div{
+      flex-direction: column;
+}
