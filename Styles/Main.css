@@ -617,3 +617,27 @@ padding: 10px 0;
     background-color: #F6D236;
     border: 0;
 }
+.Gallery_cards{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+ 
+}
+.Gallery_cards>div{
+   width: 40%;
+   height: 200px;
+   border-radius: 20px;
+   display: inline-block;
+  
+}
+.Gallery_cards>div:nth-child(even){
+  margin: 0 20px;
+}
+.Gallery_cards>div>img{
+    border-radius: inherit;
+}
+.ExploreSwiper{
+    left: 3px;
+    padding-bottom: 25%;
+
+}
