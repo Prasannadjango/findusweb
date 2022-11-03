@@ -1,19 +1,41 @@
 @media (min-width:320px) and (max-width:425px) {
-    .bottom_footer{
+    .bottom_footer {
         visibility: visible;
     }
-    .Loginpage_container{
+
+    .Loginpage_container {
         flex-direction: column;
     }
-   .Navbar_links{
-    display: none;
-   }
-   .Chooseuser_boxes{
-    flex-direction: column;
-  
-    padding: 0 30px;
-   }
-   /* .Profileinfo_container{
-    top: 80%;
-   } */
+
+    .Navbar_links {
+        display: none;
+    }
+
+    .Chooseuser_boxes {
+        flex-direction: column;
+
+        padding: 0 30px;
+    }
+
+    .Banner_container {
+        height: 560px;
+    }
+
+    .socialmedia_container {
+        justify-content: space-between;
+    }
+
+    .socialmedia_container>span {
+        margin: 0;
+    }
+    .Chooseuser_boxes>div{
+        margin: 0 0;
+    }
+    .Weekavail_container>div:nth-child(2){
+      justify-content: center;
+    }
+    .Profile_headings::after{
+        left: 4%;
+    }
+
 }

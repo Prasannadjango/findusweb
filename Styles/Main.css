@@ -24,10 +24,10 @@
 }
 .Banner_container{
     background: url(../Images/bannerimage.png);
-    height: 520px;
+    height: 100vh;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
-    background-color: #898989;
+    background-color: #dee2e6;
     z-index: 4;
     position: relative;
     background-size: cover;
@@ -47,6 +47,7 @@
 .Search_btn{
     background-color: #F6D236 !important;
     border-radius: 0 10px 10px 0 !important;
+    font-weight: bold !important;
 }
 .BannerSearch_bar{
     border-radius: 10px 0 0 10px !important;
@@ -113,12 +114,28 @@
     color: red;
     z-index: 10;
 }
+.socialmedia_container{
+    justify-content: center;
+} 
+.socialmedia_container>span{
+    margin: 0 20px;
+} 
 .Agencyprofile_card{
     border-radius: 20px !important;
 }
 .Agencyprofile_card>img{
     border-radius: 20px 20px 0 0 ;
 }
+.Chooseuser_boxes>div{
+  
+   margin: 0 20px;
+}
+.CustomerRegisteration_container,
+#multi-step-form-container{
+    padding: 0 20%;
+   
+}
+
 .Agencyprofile{
     width: 100px;
     height: 100px;
@@ -132,6 +149,23 @@
     width: inherit;
     height: inherit;
     border-radius: inherit;
+}
+.Profile_topsection{
+    flex-direction: column;
+}
+.PersonalDetails_container>ul{
+    display: flex;
+   
+}
+
+.PersonalDetails_container>ul>li{
+   margin: 0 15px;
+}
+.Profileswiper>.swiper-wrapper>.swiper-slide{
+  background-color: #3d3d3d;
+}
+.Profileswiper>.swiper-wrapper>.swiper-slide>img{
+  object-fit: contain;
 }
 .Agencyprofile_card>.card-body{
     padding-top: 65px;
@@ -597,7 +631,7 @@ padding: 10px 0;
     background: #F6D236;
     content: "";
     height: 3px;
-    left: 4%;
+    left: 1%;
     position: absolute;
     right: 0;
     width: 90px;
