@@ -55,10 +55,11 @@
     .mySwiper{
         padding-bottom: 10% !important;
     }
-    .Profile_topsection>div:nth-child(1){
-        flex-direction: column;
-    }
+   
     .Profile_topsection{
         flex-direction: row;
+    }
+    .Gallery_cards>div{
+        width: 40%;
     }
 }
