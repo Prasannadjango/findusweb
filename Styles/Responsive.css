@@ -3,7 +3,8 @@
         visibility: visible;
     }
 
-    .Loginpage_container {
+    .Loginpage_container,
+    .PersonalDetails_container>ul {
         flex-direction: column;
     }
 
@@ -37,5 +38,16 @@
     .Profile_headings::after{
         left: 4%;
     }
-
+    .Profileswiper>.swiper-wrapper>.swiper-slide>img{
+        object-fit: fill;
+    }
+    .CustomerRegisteration_container, #multi-step-form-container {
+        padding: 0;
+    }
+    .Agencyprofile_card>.card-body {
+        padding-top: 65px;
+    }
+    .Agencyprofile{
+        top: 46%;
+    }
 }

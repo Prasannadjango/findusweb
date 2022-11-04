@@ -141,7 +141,7 @@
     height: 100px;
     border-radius: 50px;
     position: absolute;
-    top: 46%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -168,7 +168,7 @@
   object-fit: contain;
 }
 .Agencyprofile_card>.card-body{
-    padding-top: 65px;
+    padding-top: 40px;
 }
 .bottom_footer{
     background-color: #F6D236 ;
@@ -635,6 +635,12 @@ padding: 10px 0;
     position: absolute;
     right: 0;
     width: 90px;
+}
+.Agencyprofile_card>.card-body {
+    padding-top:57px;
+}
+.Agencyprofile_card>img{
+    height: 40%;
 }
 .Weekavail_container>div:nth-child(2)>span,
 .incall_container>div:nth-child(2)>span{
