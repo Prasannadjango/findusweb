@@ -389,8 +389,15 @@
 .Chooseuser_boxes {
     justify-content: center;
 }
-
-.Chooseuser_boxes>div {
+.Chooseuser_boxes>div:nth-child(1){
+    margin-bottom: 30px;
+}
+.Chooseuser_boxes>div:nth-child(1),
+.Chooseuser_boxes>div:nth-child(2){
+    display: flex;
+}
+.Chooseuser_boxes>div:nth-child(1)>div,
+.Chooseuser_boxes>div:nth-child(2)>div {
     box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
     border-radius: 20px;
     padding: 50px;

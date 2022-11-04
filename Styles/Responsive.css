@@ -31,6 +31,15 @@
     .socialmedia_container>span {
         margin: 0;
     }
+    .Chooseuser_boxes>div:nth-child(1)>div,
+    .Chooseuser_boxes>div:nth-child(2)>div{
+   
+           margin-bottom: 40px;
+    }
+    .Chooseuser_boxes>div:nth-child(1), .Chooseuser_boxes>div:nth-child(2){
+        flex-direction: column;
+    }
+   
     .Chooseuser_boxes>div{
         margin: 0 0;
     }
@@ -65,7 +74,7 @@
 }
 @media (min-width:426px) and (max-width:768px) {
     .bottom_footer {
-        visibility: visible;
+        visibility: hidden;
     }
 
     .Loginpage_container,
@@ -89,12 +98,10 @@
         background-color: #939393;
     }
 
-    .socialmedia_container {
-        justify-content: space-between;
-    }
+   
 
     .socialmedia_container>span {
-        margin: 0;
+        margin: 0 20px;
     }
     .Chooseuser_boxes>div{
         margin: 0 0;
@@ -106,7 +113,7 @@
         left: 4%;
     }
     .Profileswiper>.swiper-wrapper>.swiper-slide>img{
-        object-fit: fill;
+        object-fit: contain;
     }
     .CustomerRegisteration_container, #multi-step-form-container {
         padding: 0;
@@ -117,20 +124,18 @@
     .Agencyprofile {
         top: 38%;
     }
-    .mySwiper{
-        padding-bottom: 10% !important;
-    }
+ 
    
     .Profile_topsection{
-        flex-direction: row;
+        flex-direction: column;
     }
     .Gallery_cards>div{
-        width: 40%;
+        width: 23%;
     }
 }
 @media (min-width:769px) and (max-width:992px) {
     .bottom_footer {
-        visibility: visible;
+        visibility: hidden;
     }
 
     .Loginpage_container,
@@ -154,12 +159,10 @@
         background-color: #939393;
     }
 
-    .socialmedia_container {
-        justify-content: space-between;
-    }
+   
 
     .socialmedia_container>span {
-        margin: 0;
+        margin: 0 20px;
     }
     .Chooseuser_boxes>div{
         margin: 0 0;
@@ -171,7 +174,7 @@
         left: 4%;
     }
     .Profileswiper>.swiper-wrapper>.swiper-slide>img{
-        object-fit: fill;
+        object-fit: contain;
     }
     .CustomerRegisteration_container, #multi-step-form-container {
         padding: 0;
@@ -182,14 +185,12 @@
     .Agencyprofile {
         top: 38%;
     }
-    .mySwiper{
-        padding-bottom: 10% !important;
-    }
+ 
    
     .Profile_topsection{
-        flex-direction: row;
+        flex-direction: column;
     }
     .Gallery_cards>div{
-        width: 40%;
+        width: 23%;
     }
 }
