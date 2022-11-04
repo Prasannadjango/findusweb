@@ -4,7 +4,8 @@
     }
 
     .Loginpage_container,
-    .PersonalDetails_container>ul {
+    .PersonalDetails_container>ul,
+    .Mailverfication_container {
         flex-direction: column;
     }
 
@@ -52,7 +53,7 @@
         top: 38%;
     }
     .mySwiper{
-        padding-bottom: 10% !;
+        padding-bottom: 10% !important;
     }
     
 }
