@@ -20,6 +20,7 @@
 
     .Banner_container {
         height: 560px;
+        background-color: #939393;
     }
 
     .socialmedia_container {
@@ -47,7 +48,11 @@
     .Agencyprofile_card>.card-body {
         padding-top: 65px;
     }
-    .Agencyprofile{
-        top: 46%;
+    .Agencyprofile {
+        top: 38%;
     }
+    .mySwiper{
+        padding-bottom: 10% !;
+    }
+    
 }
