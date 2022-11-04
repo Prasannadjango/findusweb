@@ -1,28 +1,30 @@
 @font-face {
     font-family: 'mainfont';
     src: url(../Fonts/Montserrat-Regular.otf),
-    url(../Fonts/Montserrat-Regular.ttf),
-    url(../Fonts/Montserrat-Regular.woff),
-    url(../Fonts/Montserrat-Regular.woff2);
+        url(../Fonts/Montserrat-Regular.ttf),
+        url(../Fonts/Montserrat-Regular.woff),
+        url(../Fonts/Montserrat-Regular.woff2);
 
 }
 
 * {
- 
-    font-family:'mainfont';
+
+    font-family: 'mainfont';
 }
 
-.navbar_container{
+.navbar_container {
     box-shadow: 0 8px 5px -10px #000;
     position: fixed !important;
     z-index: 5;
     width: 100%;
     background-color: #fff;
 }
-.navbar_container>div>span>a>svg{
-  color: #000;
+
+.navbar_container>div>span>a>svg {
+    color: #000;
 }
-.Banner_container{
+
+.Banner_container {
     background: url(../Images/bannerimage.png);
     height: 100vh;
     background-repeat: no-repeat;
@@ -31,45 +33,53 @@
     z-index: 4;
     position: relative;
     background-size: cover;
- 
+
 }
-.Banner_text{
+
+.Banner_text {
     position: absolute;
     z-index: 6;
-    top:25%;
-    padding-left:20px;
+    top: 25%;
+    padding-left: 20px;
     width: 100%;
 }
-.Banner_text > h1:nth-child(2),
-.Heading_Container>a{
-   color: #F6D236;
+
+.Banner_text>h1:nth-child(2),
+.Heading_Container>a {
+    color: #F6D236;
 }
-.Search_btn{
+
+.Search_btn {
     background-color: #F6D236 !important;
     border-radius: 0 10px 10px 0 !important;
     font-weight: bold !important;
 }
-.BannerSearch_bar{
+
+.BannerSearch_bar {
     border-radius: 10px 0 0 10px !important;
     background-image: url(../Images/SearchLove.png);
     background-repeat: no-repeat;
-    background-position:10px;
+    background-position: 10px;
     padding-left: 47px !important;
 }
-.Morefilter{
-    
+
+.Morefilter {
+
     color: #F6D236;
 }
-.Profile_card{
+
+.Profile_card {
     border-radius: 20px !important;
-     position: relative;
+    position: relative;
 }
-.Profile_card>img{
+
+.Profile_card>img {
     border-radius: inherit;
     height: 100%;
     object-position: center;
 }
-.profilecard_body{
+
+.profilecard_body {
     position: absolute;
     background-color: #000;
     color: white;
@@ -78,14 +88,15 @@
     bottom: 0;
     opacity: 80%;
 }
-.Like_btn{
+
+.Like_btn {
     position: absolute;
     background-color: #fff;
     top: -17%;
     right: 5%;
     width: 58px;
     height: 58px;
-    display:grid;
+    display: grid;
     place-items: center;
     border-radius: 30px;
     padding-top: 7px;
@@ -93,14 +104,15 @@
     z-index: 10;
 
 }
-.Like_btn1{
+
+.Like_btn1 {
     position: absolute;
     background-color: #fff;
     top: 20px;
     right: 5%;
     width: 50px;
     height: 50px;
-    display:grid;
+    display: grid;
     place-items: center;
     border-radius: 30px;
     padding-top: 7px;
@@ -108,35 +120,41 @@
     z-index: 10;
 
 }
+
 .Like_btn>svg,
-.Like_btn1>svg
-{
+.Like_btn1>svg {
     color: red;
     z-index: 10;
 }
-.socialmedia_container{
+
+.socialmedia_container {
     justify-content: center;
-} 
-.socialmedia_container>span{
-    margin: 0 20px;
-} 
-.Agencyprofile_card{
-    border-radius: 20px !important;
-}
-.Agencyprofile_card>img{
-    border-radius: 20px 20px 0 0 ;
-}
-.Chooseuser_boxes>div{
-  
-   margin: 0 20px;
-}
-.CustomerRegisteration_container,
-#multi-step-form-container{
-    padding: 0 20%;
-   
 }
 
-.Agencyprofile{
+.socialmedia_container>span {
+    margin: 0 20px;
+}
+
+.Agencyprofile_card {
+    border-radius: 20px !important;
+}
+
+.Agencyprofile_card>img {
+    border-radius: 20px 20px 0 0;
+}
+
+.Chooseuser_boxes>div {
+
+    margin: 0 20px;
+}
+
+.CustomerRegisteration_container,
+#multi-step-form-container {
+    padding: 0 20%;
+
+}
+
+.Agencyprofile {
     width: 100px;
     height: 100px;
     border-radius: 50px;
@@ -145,33 +163,40 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.Agencyprofile>img{
+
+.Agencyprofile>img {
     width: inherit;
     height: inherit;
     border-radius: inherit;
 }
-.Profile_topsection{
+
+.Profile_topsection {
     flex-direction: column;
 }
-.PersonalDetails_container>ul{
+
+.PersonalDetails_container>ul {
     display: flex;
-   
+
 }
 
-.PersonalDetails_container>ul>li{
-   margin: 0 15px;
+.PersonalDetails_container>ul>li {
+    margin: 0 15px;
 }
-.Profileswiper>.swiper-wrapper>.swiper-slide{
-  background-color: #3d3d3d;
+
+.Profileswiper>.swiper-wrapper>.swiper-slide {
+    background-color: #3d3d3d;
 }
-.Profileswiper>.swiper-wrapper>.swiper-slide>img{
-  object-fit: contain;
+
+.Profileswiper>.swiper-wrapper>.swiper-slide>img {
+    object-fit: contain;
 }
-.Agencyprofile_card>.card-body{
+
+.Agencyprofile_card>.card-body {
     padding-top: 40px;
 }
-.bottom_footer{
-    background-color: #F6D236 ;
+
+.bottom_footer {
+    background-color: #F6D236;
     bottom: 0;
     position: fixed;
     z-index: 1000;
@@ -182,14 +207,17 @@
     visibility: hidden;
     margin-top: 50px;
 }
-.bottom_footer>div>a>img{
-      width: 40px;
-      height: 40px;
+
+.bottom_footer>div>a>img {
+    width: 40px;
+    height: 40px;
 }
-.bottom_footer>div>p{
+
+.bottom_footer>div>p {
     font-size: 12px;
 }
-.bottom_footer>div:nth-child(2)>div{
+
+.bottom_footer>div:nth-child(2)>div {
     border-radius: 50px;
     width: 70px;
     height: 70px;
@@ -201,37 +229,44 @@
     transform: translate(-50%, -50%);
     box-shadow: 0 8px 5px -10px #000;
 }
-.bottom_footer>div:nth-child(2)>div>a>img{
+
+.bottom_footer>div:nth-child(2)>div>a>img {
     width: 40px;
     height: 40px;
 }
-.Popularagencies_container{
+
+.Popularagencies_container {
     margin-bottom: 20%;
 }
-.Loginpage_container{
+
+.Loginpage_container {
     display: flex;
 }
-.Loginpage_container>div:nth-child(1)>img{
+
+.Loginpage_container>div:nth-child(1)>img {
     width: 100%;
 }
-.loginform_container>input:nth-child(1){
-  background: url(/Images/Mail.png);
-  background-repeat: no-repeat;
-  background-size: 30px;
-  background-position: 6px;
- border-radius: 10px;
-  padding:15px 0 15px 45px;
+
+.loginform_container>input:nth-child(1) {
+    background: url(/Images/Mail.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 6px;
+    border-radius: 10px;
+    padding: 15px 0 15px 45px;
 }
-.loginform_container>input:nth-child(2){
+
+.loginform_container>input:nth-child(2) {
     background: url(/Images/Lock.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: 6px;
-    padding:15px 0 15px 45px;
+    padding: 15px 0 15px 45px;
     margin-top: 20px;
     border-radius: 10px;
 }
-.loginform_container>button{
+
+.loginform_container>button {
     background-color: #F6D236;
     margin-top: 20px;
     padding: 15px 0;
@@ -239,88 +274,97 @@
     font-weight: bold;
     font-size: 20px;
 }
-.socialmedia_container>span{
-  width: 55px;
-  height: 55px;
-  
+
+.socialmedia_container>span {
+    width: 55px;
+    height: 55px;
+
 }
-.Homebtn{
+
+.Homebtn {
     position: absolute;
     top: 5%;
     left: 5%;
     color: black;
     z-index: 10;
 }
-.Advancedsearch_form>input:nth-child(1){
+
+.Advancedsearch_form>input:nth-child(1) {
     background: url(/Images/Place\ Marker.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: 6px;
-    padding:15px 0 15px 45px;
+    padding: 15px 0 15px 45px;
     margin-top: 20px;
     border-radius: 10px;
 }
-.Advancedsearch_form>select{
+
+.Advancedsearch_form>select {
     background: url(/Images/Gender\ Equality.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: 6px;
-    padding:15px 0 15px 45px;
+    padding: 15px 0 15px 45px;
     margin-top: 20px;
     border-radius: 10px;
 }
-.Advancedsearch_form>input:nth-child(3){
+
+.Advancedsearch_form>input:nth-child(3) {
     background: url(/Images/Age.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: 6px;
-    padding:15px 0 15px 45px;
+    padding: 15px 0 15px 45px;
     margin-top: 20px;
     border-radius: 10px;
 }
+
 .Advancedsearch_form>input:nth-child(4),
-.heighttext{
+.heighttext {
     background: url(/Images/Resize\ Vertical.png) !important;
     background-repeat: no-repeat !important;
     background-size: 30px !important;
     background-position: 6px !important;
-    padding:15px 0 15px 45px !important;
+    padding: 15px 0 15px 45px !important;
     margin-top: 20px !important;
     border-radius: 10px !important;
 }
+
 .Advancedsearch_form>input:nth-child(5),
-.bodytext{
+.bodytext {
     background: url(/Images/Female\ Back.png) !important;
     background-repeat: no-repeat !important;
     background-size: 30px !important;
     background-position: 6px !important;
-    padding:15px 0 15px 45px !important;
+    padding: 15px 0 15px 45px !important;
     margin-top: 20px !important;
     border-radius: 10px !important;
 }
+
 .Advancedsearch_form>input:nth-child(6),
-.Ethnitext{
+.Ethnitext {
     background: url(/Images/Female\ User.png) !important;
     background-repeat: no-repeat !important;
     background-size: 30px !important;
     background-position: 6px !important;
-    padding:15px 0 15px 45px !important;
+    padding: 15px 0 15px 45px !important;
     margin-top: 20px !important;
     border-radius: 10px !important;
 }
+
 .Advancedsearch_form>input:nth-child(7),
-.Eyetext{
+.Eyetext {
     background: url(/Images/Sleepy\ Eyes.png) !important;
     background-repeat: no-repeat !important;
     background-size: 30px !important;
     background-position: 6px !important;
-    padding:15px 0 15px 45px !important;
+    padding: 15px 0 15px 45px !important;
     margin-top: 20px !important;
     border-radius: 10px !important;
 }
 
 .Advancedsearch_form>button,
-.CustomerRegsiter_form >button{
+.CustomerRegsiter_form>button {
     background-color: #F6D236;
     margin-top: 20px;
     padding: 15px 0;
@@ -328,21 +372,25 @@
     font-weight: bold;
     font-size: 20px;
 }
-.Navigation_offcanvas>.offcanvas-body>ul{
+
+.Navigation_offcanvas>.offcanvas-body>ul {
     list-style: none;
     padding: 0;
 }
-.Navigation_offcanvas>.offcanvas-body>ul>li{
-padding: 10px 0;
+
+.Navigation_offcanvas>.offcanvas-body>ul>li {
+    padding: 10px 0;
 }
-.Navigation_offcanvas>.offcanvas-header
-{
+
+.Navigation_offcanvas>.offcanvas-header {
     justify-content: end;
 }
-.Chooseuser_boxes{
+
+.Chooseuser_boxes {
     justify-content: center;
 }
-.Chooseuser_boxes>div{
+
+.Chooseuser_boxes>div {
     box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
     border-radius: 20px;
     padding: 50px;
@@ -351,155 +399,168 @@ padding: 10px 0;
     justify-content: center;
 }
 
-.create_btn{
+.create_btn {
     background-color: #F6D236 !important;
     padding: 10px 40px !important;
-    
+
 }
-.Usertext{
+
+.Usertext {
     background: url(/Images/User.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: 6px;
-    padding:15px 0 15px 45px !important;
+    padding: 15px 0 15px 45px !important;
     margin-top: 20px;
     border-radius: 10px !important;
 }
-.Mailtext{
+
+.Mailtext {
     background: url(/Images/Mail.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: 6px;
-    padding:15px 0 15px 45px !important;
+    padding: 15px 0 15px 45px !important;
     margin-top: 20px;
     border-radius: 10px !important;
-}  
-.Locationtext{
+}
+
+.Locationtext {
     background: url(/Images/Place\ Marker.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: 6px;
-    padding:15px 0 15px 45px !important;
+    padding: 15px 0 15px 45px !important;
     margin-top: 20px;
     border-radius: 10px !important;
 }
-.CustomerRegsiter_form>select
 
-{
+.CustomerRegsiter_form>select {
     background: url(/Images/Gender\ Equality.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: 6px;
-    padding:15px 0 15px 45px;
+    padding: 15px 0 15px 45px;
     margin-top: 20px;
     border-radius: 10px;
 }
-.Genderselect{
+
+.Genderselect {
     background: url(/Images/Gender\ Equality.png) !important;
     background-repeat: no-repeat !important;
     background-size: 30px !important;
     background-position: 6px !important;
-    padding:15px 0 15px 45px !important;
+    padding: 15px 0 15px 45px !important;
     margin-top: 20px !important;
     border-radius: 10px !important;
 }
-.Agetext{
+
+.Agetext {
     background: url(/Images/Age.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: 6px;
-    padding:15px 0 15px 45px !important;
+    padding: 15px 0 15px 45px !important;
     margin-top: 20px;
     border-radius: 10px !important;
 }
-.Mobiletext{
+
+.Mobiletext {
     background: url(/Images/Phone.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: 6px;
-    padding:15px 0 15px 45px !important;
+    padding: 15px 0 15px 45px !important;
     margin-top: 20px;
     border-radius: 10px !important;
 }
-.Agencytext{
+
+.Agencytext {
     background: url(/Images/Department.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: 6px;
-    padding:15px 0 15px 45px !important;
+    padding: 15px 0 15px 45px !important;
     margin-top: 20px;
     border-radius: 10px !important;
 }
-.passwordtext{
+
+.passwordtext {
     background: url(/Images/Lock.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: 6px;
-    padding:15px 0 15px 45px !important;
+    padding: 15px 0 15px 45px !important;
     margin-top: 20px;
     border-radius: 10px !important;
-}  
-#profileImage{
+}
+
+#profileImage {
     background: url(/Images/User\ Male.png);
     background-repeat: no-repeat;
     background-size: 80px;
     background-position: center;
     background-color: #E4E3E3;
 }
-#logoImage{
+
+#logoImage {
     background: url(/Images/Image\ File.png);
     background-repeat: no-repeat;
     background-size: 80px;
     background-position: center;
     background-color: #E4E3E3;
 }
-.Imagestext{
+
+.Imagestext {
     background: url(/Images/Add\ Image.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: 6px;
-    padding:15px 0 15px 45px !important;
+    padding: 15px 0 15px 45px !important;
     margin-top: 20px;
     border-radius: 10px !important;
 }
-.fewwordstext{
+
+.fewwordstext {
     background: url(/Images/Align\ Text\ Left.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position-x: 7px;
     background-position-y: 13px;
-    padding:15px 0 15px 45px !important;
+    padding: 15px 0 15px 45px !important;
     margin-top: 20px;
     border-radius: 10px !important;
 }
-.Accnumtext{
+
+.Accnumtext {
     background: url(/Images/Credit\ Card.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position-x: 7px;
     background-position-y: 13px;
-    padding:15px 0 15px 45px !important;
+    padding: 15px 0 15px 45px !important;
     margin-top: 20px;
     border-radius: 10px !important;
 }
-.Acctext{
+
+.Acctext {
     background: url(/Images/Museum.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position-x: 7px;
     background-position-y: 13px;
-    padding:15px 0 15px 45px !important;
+    padding: 15px 0 15px 45px !important;
     margin-top: 20px;
     border-radius: 10px !important;
 }
+
 /* Profile pic picker */
-#imageUpload,#imageUpload1
-{
+#imageUpload,
+#imageUpload1 {
     display: none;
 }
 
-#profileImage
-{
+#profileImage {
     cursor: pointer;
 }
 
@@ -518,45 +579,48 @@ padding: 10px 0;
     width: 150px;
     height: 150px;
 }
+
 ::-webkit-file-upload-button {
     display: none;
- }
-.Stepnext_btn{
+}
+
+.Stepnext_btn {
     background-color: #F6D236 !important;
-    padding: 12px 25px!important;
-    
+    padding: 12px 25px !important;
+
     border-radius: 10px !important
 }
-.Stepnext_btn>svg{
+
+.Stepnext_btn>svg {
     margin-left: 5px;
 }
 
 /* Selected weekend styles */
 
 
-.Weekend_list{
+.Weekend_list {
     padding: 0 !important;
     margin: 0;
     clear: both;
-   
+
     flex-wrap: wrap;
     justify-content: center;
-  }
-  
-  .Weekend_list>li{
+}
+
+.Weekend_list>li {
     list-style-type: none;
     list-style-position: outside;
-   
-    
-  }
-  
-  input[type="checkbox"]:not(:checked), 
-  input[type="checkbox"]:checked {
+
+
+}
+
+input[type="checkbox"]:not(:checked),
+input[type="checkbox"]:checked {
     position: absolute;
     left: -9999%;
-  }
-  
-  input[type="checkbox"] + label {
+}
+
+input[type="checkbox"]+label {
     border-radius: 30px;
     display: inline-block;
     padding: 10px;
@@ -565,69 +629,78 @@ padding: 10px 0;
     color: black;
     background-color: white;
     margin-bottom: 10px;
-  }
-  
-  input[type="checkbox"]:checked + label {
+}
+
+input[type="checkbox"]:checked+label {
     border: 1px solid white;
     color: white;
     background-color: #F6D236;
-  }
-  .Weekend_list>li{
+}
+
+.Weekend_list>li {
     padding: 7px;
-  }
-  .swiper-pagination-bullet-active{
+}
+
+.swiper-pagination-bullet-active {
     background-color: #F6D236 !important;
-   
-  }
-  .swiper-pagination-bullet,
-  .swiper-pagination-bullet-active{
+
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
     height: 10px !important;
     width: 10px !important;
-  }
-  .Profileinfo_container{
+}
+
+.Profileinfo_container {
     position: absolute;
     top: -15px;
     z-index: 10;
     background: #fff;
     border-radius: 20px 20px 0 0;
-    padding:1rem 1rem 3.2rem 1rem;
-  }
+    padding: 1rem 1rem 3.2rem 1rem;
+}
 
-  .Profileimage{
+.Profileimage {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-  }
+}
 
-  .Profileimage>img{
-      border-radius: inherit;
-  }
+.Profileimage>img {
+    border-radius: inherit;
+}
 
-  .onlinesection>div{
+.onlinesection>div {
     width: 12px;
     height: 12px;
     border-radius: 50%;
     background-color: 06CC0E;
-  }
-  .cat_badge{
+}
+
+.cat_badge {
     background-color: #D9D9D9;
     border-radius: 10px;
     padding: 7px;
     font-size: 15px;
-  }
-  .PersonalDetails_container>ul{
+}
+
+.PersonalDetails_container>ul {
     list-style-type: none;
     padding: 0;
-  }
-  .PersonalDetails_container>ul>li{
-   
-      padding: 15px 0;
-  }
-  .Profile_Details>div{
-     
-      height: 35px; 
-  }
-.Profile_headings::after{
+}
+
+.PersonalDetails_container>ul>li {
+
+    padding: 15px 0;
+}
+
+.Profile_Details>div {
+
+    height: 35px;
+}
+
+.Profile_headings::after {
     background: #F6D236;
     content: "";
     height: 3px;
@@ -636,65 +709,78 @@ padding: 10px 0;
     right: 0;
     width: 90px;
 }
+
 .Agencyprofile_card>.card-body {
-    padding-top:57px;
+    padding-top: 57px;
 }
-.Agencyprofile_card>img{
+
+.Agencyprofile_card>img {
     height: 40%;
 }
+
 .Weekavail_container>div:nth-child(2)>span,
-.incall_container>div:nth-child(2)>span{
+.incall_container>div:nth-child(2)>span {
     border: 1px solid #000;
     padding: 10px;
     border-radius: 40px;
-    margin:  10px;
+    margin: 10px;
 }
-.incall_container>div:nth-child(2)>span>svg{
+
+.incall_container>div:nth-child(2)>span>svg {
     color: red;
     margin-right: 5px;
 }
-.Weekavail_container>div:nth-child(2)>span:nth-child(odd){
+
+.Weekavail_container>div:nth-child(2)>span:nth-child(odd) {
     background-color: #F6D236;
     border: 0;
 }
-.Gallery_cards{
+
+.Gallery_cards {
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
- 
+
 }
-.Gallery_cards>div{
-   width: 20%;
-   height: 200px;
-   border-radius: 20px;
-   display: inline-block;
-  
+
+.Gallery_cards>div {
+    width: 20%;
+    height: 200px;
+    border-radius: 20px;
+    display: inline-block;
+
 }
-.Gallery_cards>div:nth-child(even){
-  margin: 0 20px;
+
+.Gallery_cards>div:nth-child(even) {
+    margin: 0 20px;
 }
-.Gallery_cards>div>img{
+
+.Gallery_cards>div>img {
     border-radius: inherit;
 }
-.ExploreSwiper{
+
+.ExploreSwiper {
     left: 3px;
     padding-bottom: 25%;
 
 }
-.Searchbar_container{
+
+.Searchbar_container {
     padding: 16% 0 0 0;
 }
-.searchform{
+
+.searchform {
     background: url(/Images/SearchLove.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: 6px;
-    padding:15px 0 15px 45px !important;
+    padding: 15px 0 15px 45px !important;
     margin-top: 20px;
     border-radius: 10px !important;
 }
-.profilesearch_btn{
-    padding:15px 0!important;
+
+.profilesearch_btn {
+    padding: 15px 0 !important;
     margin-top: 20px;
     border-radius: 10px !important;
     width: 100%;
@@ -703,6 +789,14 @@ padding: 10px 0;
     background-color: #F6D236 !important;
 }
 
-.Agencyall_Profiles>div{
-      flex-direction: column;
+.Agencyall_Profiles>div {
+    flex-direction: column;
+}
+
+.Search_bar {
+    border-radius: 10px !important;
+    background-image: url(../Images/SearchLove.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    padding-left: 47px !important;
 }

@@ -432,7 +432,7 @@
                 </div>
                 <div class="modal-body">
                     <h2 class="text-center fw-bold">Search profile by Filters</h2>
-                    <form class="Advancedsearch_form">
+                    <form class="Advancedsearch_form" onsubmit="">
                         <input type="text" class="form-control" placeholder="Enter the Location...">
                         <select class="form-select" aria-label="Default select example">
                             <option selected>Select the Gender..</option>
@@ -476,6 +476,11 @@
     </div>
 
     <!-- External Scripts -->
+    <script>
+        function Searchfilter() {
+            window.location.href='Searchprofileresults.html';
+        }
+    </script>
     <script src="/scripts/bootstrap.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="/scripts/Swiper.js"></script>
