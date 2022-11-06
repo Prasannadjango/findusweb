@@ -388,10 +388,9 @@
 
 .Chooseuser_boxes {
     justify-content: center;
+    display: flex;
 }
-.Chooseuser_boxes>div:nth-child(1){
-    margin-bottom: 30px;
-}
+
 .Chooseuser_boxes>div:nth-child(1),
 .Chooseuser_boxes>div:nth-child(2){
     display: flex;
