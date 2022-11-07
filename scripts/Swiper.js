@@ -7,6 +7,11 @@ var swiper = new Swiper(".mySwiper", {
             slidesPerView: 1,
             spaceBetweenSlides: 50
         },
+
+        667:{
+            slidesPerView: 2,
+            spaceBetweenSlides: 50
+        },
         768:{
             slidesPerView: 2,
             spaceBetweenSlides: 50
@@ -14,6 +19,10 @@ var swiper = new Swiper(".mySwiper", {
         // when window width is <= 999px
         999: {
             slidesPerView: 3,
+            spaceBetweenSlides: 50
+        },
+        1024: {
+            slidesPerView: 2,
             spaceBetweenSlides: 50
         },
         1200: {

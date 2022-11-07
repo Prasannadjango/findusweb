@@ -77,6 +77,9 @@
     .Footer_Container>div{
         flex-direction: column;
     }
+    .Galleryswiper>.swiper-wrapper>.swiper-slide{
+        width: 100% !important;
+    }
 }
 @media (min-width:426px) and (max-width:768px) {
     .bottom_footer {
@@ -138,6 +141,10 @@
     .Gallery_cards>div{
         width: 23%;
     }
+    .Footer_Container>div{
+        flex-direction: column;
+    }
+
 }
 @media (min-width:769px) and (max-width:992px) {
     .bottom_footer {
@@ -198,5 +205,8 @@
     }
     .Gallery_cards>div{
         width: 23%;
+    }
+    .Footer_Container>div{
+        flex-direction: column;
     }
 }
