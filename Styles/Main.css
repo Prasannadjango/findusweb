@@ -806,3 +806,28 @@ input[type="checkbox"]:checked+label {
     background-position: 10px;
     padding-left: 47px !important;
 }
+.dropdown-menu[data-bs-popper]{
+    right: 0;
+    left: unset !important;
+}
+.footer_container>div>div:nth-child(2)>ul>li{
+    padding: 7px 0;
+    color:#dee2e6;
+}
+.footer_container>div>div:nth-child(3)>ul>li{
+    padding: 7px 0;
+    color:#dee2e6;
+}
+.Footer_Container{
+    padding: 32px;
+}
+.Profile_card,
+.Agencyprofile_card{
+    cursor: pointer;
+}
+.Galleryswiper>.swiper-wrapper>.swiper-slide{
+    border-radius: 15px;
+}
+.Galleryswiper>.swiper-wrapper>.swiper-slide>img{
+    border-radius: inherit;
+}

@@ -15,7 +15,8 @@
         <div class="container-fluid">
             <div>
                 <button class="navbar-toggler p-0" type="button" data-bs-toggle="offcanvas" href="#offcanvasExample">
-                    <span class="navbar-toggler-icon">
+                    <span class="navbar-toggler-icon" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                        aria-expanded="false">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
                             class="bi bi-list" viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
@@ -23,13 +24,14 @@
                         </svg>
                     </span>
                 </button>
+
                 <div class="collapse navbar-collapse Navbar_links" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-">
                         <li class="nav-item ">
                             <a class="nav-link active text-dark fs-6" aria-current="page" href="#">Bookings</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link text-dark fs-6" href="#">Link</a>
+                            <a class="nav-link text-dark fs-6" href="#">Profile settings</a>
                         </li>
 
 
@@ -42,8 +44,8 @@
                 <img src="/Images/finduslogo.png" style="width: 150px;" />
             </div>
 
-            <span>
-                <a href="Login.html">
+            <span id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                <a>
                     <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
                         class="bi bi-person-circle" viewBox="0 0 16 16">
                         <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
@@ -52,6 +54,13 @@
                     </svg>
                 </a>
             </span>
+
+
+            <ul class="dropdown-menu p-4" aria-labelledby="dropdownMenuLink">
+                <a href="Login.html" class="text-decoration-none fs-6 fw-bold text-dark">Login to continue</a>
+            </ul>
+
+
         </div>
 
     </nav>
@@ -94,39 +103,8 @@
             <div class="swiper-wrapper" style="height:max-content;">
                 <div class="swiper-slide p-4">
                     <!-- <a href="Providerprofile.html"> -->
-                        <div class="card Profile_card" style="width:100%;height: 430px;" onclick="window.location.href='Providerprofile.html'">
-                            <img src="/Images/modelexample1.jpg" class="card-img-top " alt="...">
-                            <div class="card-body profilecard_body">
-                                <p class="text-start fs-6">Individual</p>
-                                <div class="d-flex justify-content-between">
-                                    <div class="d-flex">
-                                        <h2 class="fw-bold">Name:</h2>
-                                        <h2 class="fw-bold ps-1">Lina</h2>
-                                    </div>
-                                    <span>
-                                        <h1 class="fw-bold">$100</h1>
-                                    </span>
-                                </div>
-                                <span class="d-flex">
-                                    <h5>Age:</h5>
-                                    <h5>24</h5>
-                                </span>
-                                <div class="Like_btn">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" fill="currentColor"
-                                        class="bi bi-heart-fill" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd"
-                                            d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
-                                    </svg>
-                                </div>
-                            </div>
-    
-    
-                        </div>
-                    <!-- </a> -->
-                </div>
-                <div class="swiper-slide p-4">
-                   <!-- <a href="Providerprofile.html"> -->
-                    <div class="card Profile_card" style="width:100%;height: 430px;" onclick="window.location.href='Providerprofile.html'">
+                    <div class="card Profile_card" style="width:100%;height: 430px;"
+                        onclick="window.location.href='Providerprofile.html'">
                         <img src="/Images/modelexample1.jpg" class="card-img-top " alt="...">
                         <div class="card-body profilecard_body">
                             <p class="text-start fs-6">Individual</p>
@@ -154,10 +132,44 @@
 
 
                     </div>
-                   <!-- </a> -->
+                    <!-- </a> -->
                 </div>
                 <div class="swiper-slide p-4">
-                    <div class="card Profile_card" style="height: 430px;" onclick="window.location.href='Providerprofile.html'">
+                    <!-- <a href="Providerprofile.html"> -->
+                    <div class="card Profile_card" style="width:100%;height: 430px;"
+                        onclick="window.location.href='Providerprofile.html'">
+                        <img src="/Images/modelexample1.jpg" class="card-img-top " alt="...">
+                        <div class="card-body profilecard_body">
+                            <p class="text-start fs-6">Individual</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex">
+                                    <h2 class="fw-bold">Name:</h2>
+                                    <h2 class="fw-bold ps-1">Lina</h2>
+                                </div>
+                                <span>
+                                    <h1 class="fw-bold">$100</h1>
+                                </span>
+                            </div>
+                            <span class="d-flex">
+                                <h5>Age:</h5>
+                                <h5>24</h5>
+                            </span>
+                            <div class="Like_btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" fill="currentColor"
+                                    class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                </svg>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- </a> -->
+                </div>
+                <div class="swiper-slide p-4">
+                    <div class="card Profile_card" style="height: 430px;"
+                        onclick="window.location.href='Providerprofile.html'">
                         <img src="/Images/modelsample3.jpg" class="card-img-top " alt="...">
                         <div class="card-body profilecard_body">
                             <p class="text-start fs-6">Individual</p>
@@ -186,7 +198,7 @@
 
                     </div>
                 </div>
-             
+
 
 
             </div>
@@ -322,7 +334,7 @@
 
                     </div>
                 </div>
-               
+
             </div>
             <div class="swiper-pagination mt-5"></div>
         </div>
@@ -338,8 +350,9 @@
         <div class="swiper mySwiper">
             <div class="swiper-wrapper" style="height:max-content;">
                 <div class="swiper-slide p-4">
-                  
-                    <div class="card Agencyprofile_card" style="width:100%; height: 430px;" onclick="window.location.href='Agencyprofile.html'">
+
+                    <div class="card Agencyprofile_card" style="width:100%; height: 430px;"
+                        onclick="window.location.href='Agencyprofile.html'">
                         <img src="/Images/agencybanner.jpg" class="card-img-top " alt="...">
                         <div class="Agencyprofile">
                             <img src="/Images/modelexample1.jpg" />
@@ -357,11 +370,12 @@
                         </div>
 
                     </div>
-                  </a>
+                    </a>
                 </div>
                 <div class="swiper-slide p-4">
-                  
-                    <div class="card Agencyprofile_card" style="width:100%; height: 430px;" onclick="window.location.href='Agencyprofile.html'">
+
+                    <div class="card Agencyprofile_card" style="width:100%; height: 430px;"
+                        onclick="window.location.href='Agencyprofile.html'">
                         <img src="/Images/agencybanner.jpg" class="card-img-top " alt="...">
                         <div class="Agencyprofile">
                             <img src="/Images/modelexample1.jpg" />
@@ -379,16 +393,55 @@
                         </div>
 
                     </div>
-                  </a>
+                    </a>
                 </div>
-              
-              
+
+
 
 
             </div>
             <div class="swiper-pagination mt-5"></div>
         </div>
     </div>
+
+
+    <!-- Main footer -->
+
+    <div class=" Footer_Container bg-dark  w-100">
+
+        <div class="d-flex">
+            <div class="col-xl-3 col-12 pb-xl-0 pb-4">
+                <img src="/Images/finduslogo.png" />
+            </div>
+            <div class="col-xl-3 col-12 text-white">
+                <h5 class="fw-bold">Browse</h5>
+                <ul class="list-unstyled py-2">
+                    <li>bookings</li>
+                    <li>Links</li>
+                    <li>Notifications</li>
+                </ul>
+            </div>
+            <div class="col-xl-3 col-12 text-white">
+                <h5 class="fw-bold">Platform</h5>
+                <ul class="list-unstyled py-2">
+                    <li>Terms & conditions</li>
+                    <li>Policies</li>
+                    <li>Privacy</li>
+                </ul>
+            </div>
+            <div class="col-xl-3 col-12 d-flex align-items-center  flex-column">
+                <h6 class=" text-center  lh-lg text-white">
+                    Find the Perfect Profile by Just one Click
+                </h6>
+                <button class="btn Stepnext_btn col-6 fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Click here
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+
 
     <!-- Bottom footer section -->
 
@@ -478,7 +531,7 @@
     <!-- External Scripts -->
     <script>
         function Searchfilter() {
-            window.location.href='Searchprofileresults.html';
+            window.location.href = 'Searchprofileresults.html';
         }
     </script>
     <script src="/scripts/bootstrap.js"></script>

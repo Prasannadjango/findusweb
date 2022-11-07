@@ -71,6 +71,12 @@
     .Gallery_cards>div{
         width: 40%;
     }
+    .Footer_Container{
+      padding-bottom: 8rem;
+    }
+    .Footer_Container>div{
+        flex-direction: column;
+    }
 }
 @media (min-width:426px) and (max-width:768px) {
     .bottom_footer {
