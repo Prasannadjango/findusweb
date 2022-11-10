@@ -832,3 +832,6 @@ input[type="checkbox"]:checked+label {
 .Galleryswiper>.swiper-wrapper>.swiper-slide>img{
     border-radius: inherit;
 }
+.modal-content{
+    border-radius: 15px !important;
+}
