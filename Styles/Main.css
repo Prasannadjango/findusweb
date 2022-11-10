@@ -827,7 +827,7 @@ input[type="checkbox"]:checked+label {
 }
 .Galleryswiper>.swiper-wrapper>.swiper-slide{
     border-radius: 15px;
-    width: 25% !important;
+    width: 22% !important;
 }
 .Galleryswiper>.swiper-wrapper>.swiper-slide>img{
     border-radius: inherit;

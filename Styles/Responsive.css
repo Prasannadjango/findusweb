@@ -144,6 +144,9 @@
     .Footer_Container>div{
         flex-direction: column;
     }
+    .Galleryswiper>.swiper-wrapper>.swiper-slide{
+        width: 30% !important;
+    }
 
 }
 @media (min-width:769px) and (max-width:992px) {
