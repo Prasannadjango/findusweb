@@ -80,6 +80,9 @@
     .Galleryswiper>.swiper-wrapper>.swiper-slide{
         width: 100% !important;
     }
+    .PersonalDetails_container>ul>li{
+        margin: 0;
+    }
 }
 @media (min-width:426px) and (max-width:768px) {
     .bottom_footer {
